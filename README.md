@@ -4,7 +4,7 @@ This is a simple project to practice concepts of:
 - Web scraping;
 - Working with APIs;
 - Json objects;
-- Dadabase objects; and
+- Database objects; and
 - Extract, transform and load (ETL) process.
 
 The goal is to find the top 50 banks by market capitalization, and read it in EUR$. In order to do that, web scraping is used to gather data from wikipedia, and an API call is used to get currency conversion values. The first file is saved as a .json file, and the second as .csv.
