@@ -13,4 +13,4 @@ ETL process then begins, and is logged throughout its course. The result dataset
 
 ## Usage
 
-In order to reproduce results, one must execute separately files related to webscraping and API, adding its personal key to the last. Once this is done, run init and results should be as shown in the transformed_data.csv file in the data folder. The log file contains information about the ETL process.
+In order to reproduce results, one must execute the bash script "setup.sh" in a linux environment. This script will be responsible for creating and activating a virtual environment, installing dependencies, and also for executing required files to obtain desired results.

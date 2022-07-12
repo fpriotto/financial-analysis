@@ -1,13 +1,19 @@
 import requests
 import pandas as pd
 import json
+import sys
 
 #api key
 api_key = ""
 
 url = "https://api.apilayer.com/exchangerates_data/latest?base=EUR&apikey="
 url = url + api_key
-html_data = requests.get(url).text
+html_data = requests.get(url)
+
+if html_data.ok == False:
+    sys.exit("Request was not successful. Check for connection or API credentials validity.")
+
+html_data = html_data.text
 
 # creates dataframe
 currencies_df = pd.DataFrame(columns = ["Rate"])
