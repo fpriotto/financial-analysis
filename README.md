@@ -13,10 +13,17 @@ ETL process then begins, and is logged throughout its course. The result dataset
 
 ## Usage
 
-In order to reproduce results, one must execute the bash script "setup.sh" in a linux environment as shown:
+In order to reproduce results, one must install requirements running the setup script as shown:
 
 ```bash
 bash setup.sh
 ```
+
+Then, to reproduce results, issue the following command:
+
+```bash
+bash run.sh
+```
+
 
 This script will be responsible for creating and activating a virtual environment, installing dependencies, and also for executing required files to obtain desired results.
