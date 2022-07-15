@@ -7,7 +7,7 @@ This is a simple project to practice concepts of:
 - Database objects; and
 - Extract, transform and load (ETL) process.
 
-The goal is to find the top 50 banks by market capitalization, and read it in EUR$. In order to do that, web scraping is used to gather data from wikipedia, and an API call is used to get currency conversion values. The first file is saved as a .json file, and the second as .csv. A valid API key at apilayer.com is needed for the script to work.
+The goal is to find the top 50 banks by market capitalization, and read it in EUR$. In order to do that, web scraping is used to gather data from wikipedia, and an API call is used to get currency conversion values. The first file is saved as a .json file, and the second as .csv. A valid API key at [apilayer.com](https://apilayer.com/) is needed for the script to work.
 
 ETL process then begins, and is logged throughout its course. The result dataset is saved as a .csv file.
 
