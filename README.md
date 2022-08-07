@@ -16,13 +16,13 @@ ETL process then begins, and is logged throughout its course. The result dataset
 In order to reproduce results, one must install requirements running the setup script as shown:
 
 ```bash
-bash setup.sh
+./setup.sh
 ```
 
 Then, to reproduce results, issue the following command:
 
 ```bash
-bash run.sh
+./run.sh
 ```
 
 
